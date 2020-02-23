@@ -1,0 +1,9 @@
+title: $:/core/ui/ControlPanel/Settings/ace/styleActiveLine
+tags: $:/tags/ControlPanel/Settings/ACE
+caption: {{$:/language/ace/styleActiveLine/hint}}
+
+\define lingo-base() $:/language/ace/styleActiveLine/
+<<lingo hint>>
+
+<$checkbox tiddler="$:/config/ace/styleActiveLine" field="text" checked="true" unchecked="false" default="false"> <$link to="$:/config/ace/styleActiveLine"><<lingo info>></$link> </$checkbox>
+

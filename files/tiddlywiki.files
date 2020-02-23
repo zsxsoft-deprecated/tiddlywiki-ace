@@ -1,0 +1,26 @@
+{
+	"tiddlers": [
+		{
+			"file": "ace.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/zsxsoft/ace/lib/ace.js",
+				"module-type": "library"
+			}
+		}, {
+			"file": "ext-searchbox.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/zsxsoft/ace/lib/ext-searchbox.js",
+				"module-type": "library"
+			}
+		}, {
+			"file": "mode/tw-meta.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/zsxsoft/ace/mode/tw-meta.js",
+				"module-type": "ace"
+			}
+		}
+	]
+}

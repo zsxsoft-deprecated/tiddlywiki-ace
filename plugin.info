@@ -1,0 +1,6 @@
+{
+	"title": "$:/plugins/zsxsoft/ace",
+	"name": "ACE",
+	"description": "ACE Editor",
+	"list": "readme usage keyboard license"
+}

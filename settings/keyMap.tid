@@ -1,0 +1,15 @@
+title: $:/core/ui/ControlPanel/Settings/ace/keyMap
+tags: $:/tags/ControlPanel/Settings/ACE
+caption: {{$:/language/ace/keyMap/hint}}
+
+\define lingo-base() $:/language/ace/keyMap
+
+<$link to="$:/config/ace/keyMap"><<lingo hint>></$link>
+
+<$select tiddler="$:/config/ace/keyMap" default="default">
+<option value="default">default</option>
+<$list filter="[all[shadows+tiddlers]module-type[ace-keymap]!has[draft.of]get[text]]">
+<option value=<<currentTiddler>>><$transclude><$text text=<<currentTiddler>>/></$transclude></option>
+</$list>
+</$select>
+

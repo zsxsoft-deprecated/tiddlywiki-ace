@@ -1,0 +1,16 @@
+title: $:/core/ui/ControlPanel/Settings/ace/theme
+tags: $:/tags/ControlPanel/Settings/ACE
+caption: {{$:/language/ace/theme/hint}}
+
+\define lingo-base() $:/language/ace/
+
+<$link to="$:/config/ace/theme"><<lingo hint>></$link>
+
+<$select tiddler="$:/config/ace/theme" default="default">
+<option value="default">default</option>
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/Stylesheet]module-type[ace-theme]!has[draft.of]get[name]]">
+<option value=<<currentTiddler>>><$transclude field="name"><$text text=<<currentTiddler>>/></$transclude></option>
+</$list>
+</$select>
+
+//see the [[ACE Usage|$:/plugins/zsxsoft/ace/usage]] how to add themes//

@@ -1,0 +1,11 @@
+title: $:/config/EditorTypeMappings/
+
+application/javascript: ace
+application/json: ace
+application/x-tiddler-dictionary: ace
+text/css: ace
+text/html: ace
+text/plain: ace
+text/vnd.tiddlywiki: ace
+text/x-markdown: ace
+text/x-tiddlywiki: ace

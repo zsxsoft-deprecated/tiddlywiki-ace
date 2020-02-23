@@ -1,0 +1,9 @@
+title: $:/core/ui/ControlPanel/Settings/ace/showCursorWhenSelecting
+tags: $:/tags/ControlPanel/Settings/ACE
+caption: {{$:/language/ace/showCursorWhenSelecting/hint}}
+
+\define lingo-base() $:/language/ace/showCursorWhenSelecting/
+<<lingo hint>>
+
+<$checkbox tiddler="$:/config/ace/showCursorWhenSelecting" field="text" checked="true" unchecked="false" default="true"> <$link to="$:/config/ace/showCursorWhenSelecting"><<lingo info>></$link> </$checkbox>
+

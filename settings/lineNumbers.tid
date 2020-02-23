@@ -1,0 +1,9 @@
+title: $:/core/ui/ControlPanel/Settings/ace/lineNumbers
+tags: $:/tags/ControlPanel/Settings/ACE
+caption: {{$:/language/ace/lineNumbers/hint}}
+
+\define lingo-base() $:/language/ace/lineNumbers/
+<<lingo hint>>
+
+<$checkbox tiddler="$:/config/ace/lineNumbers" field="text" checked="true" unchecked="false" default="false"> <$link to="$:/config/ace/lineNumbers"><<lingo info>></$link> </$checkbox>
+

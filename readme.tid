@@ -1,0 +1,7 @@
+title: $:/plugins/zsxsoft/ace/readme
+
+This plugin provides an enhanced text editor component based on [[ACE|http://ace.net]]. The basic configuration is designed to be as lightweight as possible and is just around 235kb of size. Additional features can be installed with ~ACE ~AddOns from the plugin library.
+
+[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/zsxsoft/ace]]
+
+Based on ~ACE version 5.37.0
